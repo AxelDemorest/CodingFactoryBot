@@ -17,6 +17,7 @@ client.guildSettings = new Discord.Collection();
 client.ownerVoices = new Discord.Collection();
 client.commands = new Discord.Collection(); // On crée une nouvelle collection
 client.categories = new Array(); // on crée un tableau des catégories qui extend de client
+client.talkedRecently = new Set();
 client.util = util;
 
 // ---------------
